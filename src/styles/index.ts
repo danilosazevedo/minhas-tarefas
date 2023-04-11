@@ -17,10 +17,9 @@ export const Container = styled.div`
 `
 
 export const MainContainer = styled.main`
-  padding: 0 20px;
+  padding: 0 40px;
   height: 100vh;
   overflow-y: scroll;
-  margin-top: 8px;
 `
 
 export const Titulo = styled.h2`
@@ -53,7 +52,7 @@ export const Botao = styled.button`
 `
 
 export const BotaoSalvar = styled(Botao)`
-  background-color: ${variaveis.adicionar};
+  background-color: ${variaveis.verde};
 `
 
 export default EstiloGlobal
